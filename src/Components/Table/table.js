@@ -152,7 +152,7 @@ const handleOnFileLoad = (data) => {
 if(load == 0){
   return (
 
-    <div style={{marginTop:65,marginLeft:'5%'}}>
+    <div class="container" style={{marginTop:65,marginLeft:'5%'}}>
 
            <form onSubmit={handleSubmit}>
            <div class="col-auto">
@@ -199,7 +199,7 @@ if(load == 0){
 {
   return (
 
-    <div style={{marginTop:65,marginLeft:'5%'}}>
+    <div class="container" style={{marginTop:65,marginLeft:'5%'}}>
 
              <form onSubmit={handleSubmit}>
            <div class="col-auto">
@@ -251,7 +251,7 @@ if(load == 0){
 } else{
   return (
 
-    <div style={{marginTop:65,marginLeft:'5%'}}>
+    <div class="container" style={{marginTop:65,marginLeft:'5%'}}>
 
             <form onSubmit={handleSubmit}>
            <div class="col-auto">
